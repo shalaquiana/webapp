@@ -64,6 +64,36 @@
 </style>
 
 <body>
+  <script>
+    function mobileCheck() {
+      console.log("logo check")
+      if (window.innerWidth < window.innerHeight) {
+        var logo = document.getElementById("logo");
+        while (logo.lastChild) {
+          logo.removeChild(logo.lastChild);
+        }
+        logo.style.flexDirection = "column";
+
+        var moicon = document.createElement("img");
+        moicon.src = "./logo.png";
+        moicon.classList.add("mobiletit");
+        logo.appendChild(moicon);
+
+
+        var mologo = document.createElement("div");
+        mologo.innerText = "BIOPset";
+        mologo.classList.add("mobiletit");
+        logo.appendChild(mologo);
+
+        logo.style.width = "100%";
+        console.log("set mobile style");
+
+      }
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      mobileCheck();
+    }, false);
+  </script>
 
   <div class="bgimg">
 
@@ -544,6 +574,21 @@
           -o-animation: skew 2s infinite, flash .04s infinite;
           animation: skew 2s infinite, flash .04s infinite;
         }
+        .mobiletit {
+          font-size: 8vh;
+          font-family: 'Bungee Shade', cursive;
+          margin: auto;
+          color: #1aa3fe;
+          text-align: center;
+          mix-blend-mode: screen;
+          -webkit-filter: blur(1px);
+          -moz-filter: blur(1px);
+          filter: blur(1px);
+          -webkit-animation: skew 2s infinite, flash .04s infinite;
+          -moz-animation: skew 2s infinite, flash .04s infinite;
+          -o-animation: skew 2s infinite, flash .04s infinite;
+          animation: skew 2s infinite, flash .04s infinite;
+        }
 
         .row {
           display: flex;
@@ -562,7 +607,7 @@
 
         }
       </style>
-      <div class="row">
+      <div class="row" id="logo">
         <img class="tit" src="./logo.png" />
         <h1 class="tit">BIOPSET</h1>
       </div>
@@ -575,13 +620,14 @@
     </div>
     <div class="bottomLeft">
       <a href="https://biop-swap.surge.sh"></a>
-      <p style="font-family: 'Courier New', Courier, monospace; opacity: 0.9; font-size: 12px;">Click Here To Access
-        V2/3->V4 Swap Here</p></a>
-
-
+        <p style="font-family: 'Courier New', Courier, monospace; opacity: 0.9; font-size: 12px;">Click Here To Access
+          V2/3->V4 Swap Here
+        </p>
+      </a>
     </div>
 
   </div>
+ 
 </body>
 
 </html>
