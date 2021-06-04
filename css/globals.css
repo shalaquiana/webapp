@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,600");
+
+@font-face {
+  font-family: "Octarine-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c55bc5ec806ca000ac98694/Octarine-Bold.otf") format("opentype");
+}
+
+.bio-blurb {
+  text-align: right;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 20%;
+  font-size: small;
+}
+
+.bio-blurb-right {
+  text-align: left;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  margin-right: 20%;
+  font-size: small;
+}
+
+.bio-blurb-phone {
+  text-align: right;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 20%;
+}
+
+.bio-blurb-tablet {
+  font-size: x-small;
+  text-align: right;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 25%;
+}
+
+.bio-blurb-tablet-right {
+  font-size: x-small;
+  text-align: left;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  margin-right: 25%;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+.screen * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}

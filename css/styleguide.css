@@ -1,0 +1,57 @@
+:root {
+  --black-haze: #f6f6f6;
+  --bright-gray: #3e3f4f;
+  --cararra: #eeecec;
+  --concrete: #f5f2f2;
+  --dove-gray: #707070;
+  --gray-nurse: #e9e9e9;
+  --guardsman-red: #c60000;
+  --mariner: #2868c8;
+  --white: #ffffff;
+  --white-2: #ffffff40;
+
+  --font-size-l: 20px;
+  --font-size-m: 12px;
+  --font-size-s: 4px;
+  --font-size-xl: 21px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 28px;
+  --font-size-xxxxl: 50px;
+
+  --font-family-octarine-bold: "Octarine-Bold", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.poppins-semi-bold-black-haze-50px {
+  color: var(--black-haze);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-semi-bold-black-haze-20px {
+  color: var(--black-haze);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-normal-cararra-30px {
+  color: var(--cararra);
+  font-family: var(--font-family-poppins);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-semi-bold-black-haze-12px {
+  color: var(--black-haze);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+.border-1px-white-2 {
+  border: 1px solid var(--white-2);
+}
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
