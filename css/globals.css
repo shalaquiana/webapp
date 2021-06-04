@@ -33,6 +33,7 @@
 }
 
 .bio-blurb-phone {
+  font-size: small;
   text-align: right;
   margin: 10px;
   color: white;
