@@ -40,7 +40,7 @@
   margin-left: 20%;
   font-family: var(--font-family-octarine-bold);
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: none;
 }
 
 .bio-blurb-tablet {
@@ -52,7 +52,7 @@
   margin-left: 25%;
   font-family: var(--font-family-octarine-bold);
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: none;
 }
 
 .bio-blurb-tablet-right {
@@ -64,7 +64,7 @@
   margin-right: 25%;
   font-family: var(--font-family-octarine-bold);
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: none;
 }
 
 * {
