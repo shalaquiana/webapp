@@ -2739,7 +2739,7 @@
     display: none;
    }
 }
-@media screen and (min-width: 768px) and (max-width: 1079px) {
+@media screen and (min-width: 768px) and (max-width: 1800px) {
   .home-6 { 
     display: none;
    }
@@ -2747,7 +2747,7 @@
     display: none;
    }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1800px) {
   .ipad-nexus-9-1 { 
     display: none;
    }
