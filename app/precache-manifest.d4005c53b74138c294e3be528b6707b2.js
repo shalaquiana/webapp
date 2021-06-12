@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/static/js/1.abaaeec4.chunk.js"
   },
   {
-    "revision": "3e68c36ec1aab621f305",
-    "url": "/static/js/main.3e68c36e.chunk.js"
+    "revision": "dbe1d3550cf333940198",
+    "url": "/static/js/main.dbe1d355.chunk.js"
   },
   {
     "revision": "7568ab97947e223ebc04",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/walletConnectIcon.8215855c.svg"
   },
   {
-    "revision": "8da27835736a2d4dcb61b334ce40f8da",
+    "revision": "7dc0825cddbf176f7a4ec8d07895139a",
     "url": "/index.html"
   }
 ];
